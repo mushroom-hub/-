@@ -41,9 +41,8 @@ SQLite轻量级数据库存储数据
 3.安全可靠：数据验证和错误处理完善
 4.跨平台：可在Windows、macOS、Linux等系统运行
 
-这个系统虽然功能简洁，但涵盖了完整的信息管理系统所需的基本要素，适合作为学习项目或小型机构使用。
 
-
+代码如下：
 
     import tkinter as tk
     from tkinter import ttk, messagebox, Menu
@@ -423,3 +422,5 @@ SQLite轻量级数据库存储数据
          root = tk.Tk()
         app = StudentManagementSystem(root)
         root.mainloop()
+
+这个系统虽然功能简洁，但涵盖了完整的信息管理系统所需的基本要素，适合作为学习项目或小型机构使用。
