@@ -1,11 +1,12 @@
 # -
 详细地介绍了学生信息管理软件的功能，前端与后端的搭建过程，呈现最终软件效果。
-import tkinter as tk
-from tkinter import ttk, messagebox, Menu
-import sqlite3
 
-class StudentManagementSystem:
-    def __init__(self, root):
+    import tkinter as tk
+    from tkinter import ttk, messagebox, Menu
+    import sqlite3
+
+    class StudentManagementSystem:
+      def __init__(self, root):
         self.root = root
         self.root.title("学生信息管理系统")
         self.root.geometry("900x600")
@@ -374,8 +375,7 @@ class StudentManagementSystem:
     def show_about(self):
         """显示关于信息"""
         messagebox.showinfo("关于", "学生信息管理系统\n版本 1.0\n\n使用Python和Tkinter开发")
-
-if __name__ == "__main__":
-    root = tk.Tk()
-    app = StudentManagementSystem(root)
-    root.mainloop()
+    if __name__ == "__main__":
+         root = tk.Tk()
+        app = StudentManagementSystem(root)
+        root.mainloop()
